@@ -24,7 +24,7 @@ alert_channel = None
 user_cooldowns = {}  # user_id: {"chatting": ts, "entrance": ts, "lonely": ts}
 REJOIN_IGNORE_SECONDS = 60
 CHAT_ALERT_DELAY = 10
-LONELY_ALERT_DELAY = 5
+LONELY_ALERT_DELAY = 60
 ALERT_COOLDOWN = 3600
 
 last_chat_alert_users = set()
